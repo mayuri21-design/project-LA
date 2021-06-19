@@ -15,7 +15,7 @@
               {% if object.images %}
                     <img class="img-fluid rounded mb-3 mb-md-0" src="{{ object.images }}" style="width:80%;margin:50px;border:10px" class="ml-lg-5 order-1 order-lg-2" alt="No Image Available for {{ object.productnames}}">
               {% else %}
-                    <img class="img-fluid rounded mb-3 mb-md-0" src="https://i.ibb.co/T8nxLQT/No-Image-Available.png" style="width:80%;margin:50px;border:10px" alt="No-Image-Available"> 
+                    <img class="img-fluid rounded mb-3 mb-md-0" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGfDllcTKtS6iMGz8y5ZNR9pHl7N7BipjYEUcyvYeg6lld7pbFk1afCPsA36mOrey60VE&usqp=CAU" style="width:80%;margin:50px;border:10px" alt="No-Image-Available"> 
               {% endif %}
               <br/><br/><br/>
         <div class="comment-box">
@@ -40,7 +40,7 @@
               {% if user.username %}
                   <div class="comment-box add-comment">
                     <span class="commenter-pic">
-                      <img src="https://icon-library.net/images/anonymous-avatar-icon/anonymous-avatar-icon-2.jpg" class="img-fluid">
+                      <img src="https://plantationhomes.com.au/cms_uploads/images/15861_six-stages-of-building-a-home.jpg" class="img-fluid">
                     </span>
                     <span class="commenter-name">
                       <form action="{% url 'comment' object.id %}" method="post">
@@ -73,7 +73,7 @@
                   {% for obj in comment reversed %}
                     <div class="comment-box">
                       <span class="commenter-pic">
-                        <img src="https://icon-library.net/images/anonymous-avatar-icon/anonymous-avatar-icon-2.jpg" class="img-fluid">
+                        <img src="https://unsplash.com/photos/wR11KBaB86U" class="img-fluid">
                       </span>
                       <span class="commenter-name">
                         <strong> {{ obj.user }} </strong> <span class="comment-time"> {{ obj.time }} </span>
